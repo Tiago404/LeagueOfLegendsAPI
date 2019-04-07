@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import ChampionCard from './champion_card';
 import ChampionList from './champion_list';
+import axios from 'axios';
 
 const axios = require('axios');
 const CHAMPIONS_DATA_URL = 'http://ddragon.leagueoflegends.com/cdn/8.14.1/data/en_US/champion.json';

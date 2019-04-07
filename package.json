@@ -1,7 +1,10 @@
 {
   "name": "league-champ-database",
-  "version": "10.15.2",
+  "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "10.15.2"
+  },
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import '../App.css';
 import ChampionCard from './champion_card';
 import ChampionList from './champion_list';
-import axios from 'axios';
 
 const axios = require('axios');
 const CHAMPIONS_DATA_URL = 'http://ddragon.leagueoflegends.com/cdn/8.14.1/data/en_US/champion.json';
@@ -69,8 +68,8 @@ class App extends Component {
       <div className="container">
         <div className="row add-margin-bottom15px">
           <div className="col">
-            <h1>League of Legends Champion Viewer</h1>
-            <h3>Made By Tiago Sa, Harry Archer</h3>
+            <h1>League of Legends Champion Viewer </h1>
+            <h1>Made by: Tiago Sa, Harry Archer</h1>
           </div>
         </div>
         <ChampionList onChampionClick={this.handleChampionClick} championsData={this.state.championsData} />

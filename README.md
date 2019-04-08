@@ -1,3 +1,4 @@
+By: Tiago Sa 101054051 & Harry Archer 101087490
 
 # To run
 1. Run command "npm start"

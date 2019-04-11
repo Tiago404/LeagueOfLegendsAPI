@@ -4,7 +4,7 @@ import ChampionCard from './champion_card';
 import ChampionList from './champion_list';
 
 const axios = require('axios');
-const CHAMPIONS_DATA_URL = 'http://ddragon.leagueoflegends.com/cdn/8.14.1/data/en_US/champion.json';
+const CHAMPIONS_DATA_URL = 'https://ddragon.leagueoflegends.com/cdn/8.14.1/data/en_US/champion.json';
 
 class App extends Component {
   constructor(props) {

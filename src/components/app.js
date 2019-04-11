@@ -37,7 +37,7 @@ class App extends Component {
   }
 
   handleChampionClick = (champInfo) => {
-    let championUrl = `http://ddragon.leagueoflegends.com/cdn/8.14.1/data/en_US/champion/${champInfo.id}.json`
+    let championUrl = `https://ddragon.leagueoflegends.com/cdn/8.14.1/data/en_US/champion/${champInfo.id}.json`
     
     axios.get(championUrl)
     .then(response => {
@@ -69,7 +69,7 @@ class App extends Component {
         <div className="row add-margin-bottom15px">
           <div className="col">
             <h1>League of Legends Champion Viewer </h1>
-            <h1>Made by: Tiago Sa, Harry Archer</h1>
+            <h2>Made by: Tiago Sa and Harry Archer</h2>
           </div>
         </div>
         <ChampionList onChampionClick={this.handleChampionClick} championsData={this.state.championsData} />

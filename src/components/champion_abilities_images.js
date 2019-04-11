@@ -9,7 +9,7 @@ const ChampionAbilitiesImages = (props) => {
             return (
                 <div className="col-2" key={spell.id}>
                     <img onClick={() => props.onAbilityClick(index)}
-                        src={`http://ddragon.leagueoflegends.com/cdn/8.14.1/img/spell/${spell.image.full}`}
+                        src={`https://ddragon.leagueoflegends.com/cdn/8.14.1/img/spell/${spell.image.full}`}
                         alt={spell.name + " pic"} 
                         className="active-ability"/>
                 </div>
@@ -22,7 +22,7 @@ const ChampionAbilitiesImages = (props) => {
 
             <div className="col-2"
                 key={spell.id}><img onClick={() => props.onAbilityClick(index)}
-                    src={`http://ddragon.leagueoflegends.com/cdn/8.14.1/img/spell/${spell.image.full}`}
+                    src={`https://ddragon.leagueoflegends.com/cdn/8.14.1/img/spell/${spell.image.full}`}
                     alt={spell.name + " pic"} />
             </div>
         );

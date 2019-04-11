@@ -11,7 +11,7 @@ const ChampionCard = ({currentChampionData, onCardClickBack}) => {
     }
 
 
-    const loadingSplashUrl = `http://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion.id}_0.jpg`
+    const loadingSplashUrl = `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion.id}_0.jpg`
     const stats = champion.stats;
     const skins = champion.skins;
     // console.log(skins);

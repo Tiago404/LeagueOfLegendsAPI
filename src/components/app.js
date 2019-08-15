@@ -69,7 +69,7 @@ class App extends Component {
         <div className="row add-margin-bottom15px">
           <div className="col">
             <h1>League of Legends Champion Viewer </h1>
-            <h2>Made by: Tiago Sa and Harry Archer</h2>
+            <h2>Ranked Stats Coming Soon!</h2>
           </div>
         </div>
         <ChampionList onChampionClick={this.handleChampionClick} championsData={this.state.championsData} />

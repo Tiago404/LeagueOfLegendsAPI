@@ -20,9 +20,9 @@ const ChampionCard = ({currentChampionData, onCardClickBack}) => {
             <div className="row">
                 <div className="col-4 text-center">
                     <img src={loadingSplashUrl} alt="champion splash" />
-                    <div onClick={() => onCardClickBack()}>
+                    <a href='' onClick={() => onCardClickBack()}>
                         <br/><br/><br/><br/><br/><h1 href="">BACK</h1>
-                    </div>
+                    </a>
                 </div>
                 <div className="col-8">
                     <div><h1>{champion.name}</h1></div>

@@ -13,16 +13,14 @@ const ChampionCard = ({currentChampionData, onCardClickBack}) => {
 
     const loadingSplashUrl = `https://ddragon.leagueoflegends.com/cdn/img/champion/loading/${champion.id}_0.jpg`
     const stats = champion.stats;
-    const skins = champion.skins;
-    // console.log(skins);
     return (
         <div className="container">
             <div className="row">
                 <div className="col-4 text-center">
                     <img src={loadingSplashUrl} alt="champion splash" />
-                    <div onClick={() => onCardClickBack()}>
+                    <a href='' onClick={() => onCardClickBack()}>
                         <br/><br/><br/><br/><br/><h1 href="">BACK</h1>
-                    </div>
+                    </a>
                 </div>
                 <div className="col-8">
                     <div><h1>{champion.name}</h1></div>

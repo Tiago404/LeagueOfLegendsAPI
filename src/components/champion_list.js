@@ -9,7 +9,7 @@ const ChampionList = ({ championsData, onChampionClick }) => {
     })
 
     return (
-        <div className="row champion-list align-items-start text-center">
+        <div className="row align-items-start text-center">
                 {ChampionListItems}
         </div>
     )

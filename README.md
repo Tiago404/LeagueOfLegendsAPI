@@ -1,9 +1,10 @@
 
-Online version: https://leagueapi123131.herokuapp.com/
+Live Demo: https://master--joyful-pika-a1977e.netlify.app/
 
 # To run
-1. Run command "npm start"
-2. Go to localhost:3000
+1. Run command "npm install" to install dependencies
+2. Run command "npm start"
+3. Go to localhost:3000
 
 # Technologies used
 Front-end:
@@ -14,4 +15,5 @@ Front-end:
 Packages:
 - axios
 
+![image](https://github.com/Tiago404/LeagueOfLegendsAPI/assets/15200919/1622277e-7fba-42ec-a58f-e7572037efac)
 

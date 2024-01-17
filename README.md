@@ -1,5 +1,5 @@
 
-Live Demo: https://master--joyful-pika-a1977e.netlify.app/
+Live Demo: https://leagueoflegendschamps.netlify.app/
 
 # To run
 1. Run command "npm install" to install dependencies
